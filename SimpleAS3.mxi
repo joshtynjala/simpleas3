@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<macromedia-extension name="SimpleAS3" version="0.1.0"
+	type="suite" requires-restart="true">
+	<author name="Josh Tynjala"/>
+	<products>
+		<product name="Flash" version="9" primary="true"/>
+	</products>
+
+	<description>
+	<![CDATA[
+SimpleAS3 0.1.0<br>
+<br>
+Created by: Josh Tynjala<br>
+Website: http://www.simpleas3.com/<br>
+Get Help: http://www.simpleas3.com/documentation/<br>
+Blog: http://www.joshblog.net/<br>
+<br>
+Copyright (c) 2008 Josh Tynjala<br>
+Released under terms of the MIT License:<br>
+http://www.opensource.org/licenses/mit-license.php
+	]]>
+	</description>
+
+	<ui-access>
+	<![CDATA[
+	This panel can be found under Window > Other Panels > SimpleAS3
+	]]>
+	</ui-access>
+
+	<license-agreement>
+	<![CDATA[
+Released under terms of the MIT License:<br>
+http://www.opensource.org/licenses/mit-license.php
+	]]>
+	</license-agreement>
+
+	<files>
+		<file source="authoring_panel/SimpleAS3.swf" destination="$flash/WindowSWF" />
+		<file source="authoring_panel/SimpleAS3Project.jsfl" destination="$flash/SimpleAS3" />
+		<file source="framework/DocClass.as" destination="$flash/SimpleAS3/framework" />
+		<file source="framework/simple/displaylist.as" destination="$flash/SimpleAS3/framework/simple" />
+		<file source="framework/simple/events.as" destination="$flash/SimpleAS3/framework/simple" />
+		<file source="framework/simple/global.as" destination="$flash/SimpleAS3/framework/simple" />
+		<file source="framework/simple/privateclasses.as" destination="$flash/SimpleAS3/framework/simple" />
+		<file source="framework/simple/simple.as" destination="$flash/SimpleAS3/framework/simple" />
+	</files>
+
+</macromedia-extension>
