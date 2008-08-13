@@ -1,8 +1,6 @@
 #summary What the future holds for SimpleAS3
 #labels Featured,Phase-Requirements
 
-= Future Plans =
-
 The following features, extras, and supporting materials are either planned or being considered for future versions of SimpleAS3
 
   * The Flash authoring tool extension needs the ability to inject SimpleAS3 into any existing FLA file. Currently, the SimpleAS3 extension always creates a new FLA file.
