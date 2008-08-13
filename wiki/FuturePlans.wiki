@@ -1,0 +1,18 @@
+#summary What the future holds for SimpleAS3
+#labels Featured,Phase-Requirements
+
+= Future Plans =
+
+The following features, extras, and supporting materials are either planned or being considered for future versions of SimpleAS3
+
+  * The Flash authoring tool extension needs the ability to inject SimpleAS3 into any existing FLA file. Currently, the SimpleAS3 extension always creates a new FLA file.
+  * More extensive examples should be created. They should demonstrate complete "real world" projects.
+  * Improve the documentation as needed.
+
+
+Please feel free to leave a comment below. Answer any or all of the following questions.
+
+   * SimpleAS3 does many things the AS2 way. Is there anything else that hasn't been simplified?
+   * Is the documentation easy to understand? What could be improved? Could the organization of each page be better in any way?
+   * Could a SimpleAS3 project be easier to create?
+   * If SimpleAS3 were to include a set of downloadable examples, what sort of projects do you think would make good examples? (Examples: banner ads, blog widgets, ...what else?)
