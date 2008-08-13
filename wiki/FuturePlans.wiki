@@ -11,7 +11,7 @@ The following features, extras, and supporting materials are either planned or b
 
 ==Questions to You==
 
-Please feel free to leave a comment below. Answer any or all of the following questions.
+Please feel free to leave a comment below. Answer any or all of the following questions. These questions may change from time to time as new versions come out and new ideas are considered.
 
    * SimpleAS3 allows many things to be done the AS2 way (or very much like it). Is there anything else you wish could be simplified?
    * Is the documentation easy to understand? What could be improved? Could the organization of each page in the docs be better in any way?
