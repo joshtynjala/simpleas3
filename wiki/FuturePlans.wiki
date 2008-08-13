@@ -16,5 +16,5 @@ Please feel free to leave a comment below. Answer any or all of the following qu
    * SimpleAS3 allows many things to be done the AS2 way (or very much like it). Is there anything else you wish could be simplified?
    * Is the documentation easy to understand? What could be improved? Could the organization of each page in the docs be better in any way?
    * Could a SimpleAS3 project be easier to create?
-   * If you were to start using SimpleAS3, do you plan to use multiple SWF files in a single project (i.e. load a SWF into another SWF)?
+   * Do you intend to use multiple SWF files in a single project (i.e. load a SWF into another SWF)?
    * If SimpleAS3 were to include a set of downloadable examples, what sort of projects do you think would make good examples? (Examples: banner ads, blog widgets, ...what else?)
