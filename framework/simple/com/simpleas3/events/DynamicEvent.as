@@ -4,8 +4,8 @@ package com.simpleas3.events
 	
 	/**
 	 * A special Event subclass that is dynamic rather than static. Designed
-	 * for easily adding new properties to an event without creating a new
-	 * event class.
+	 * for easily adding new properties to an event without needing to create a
+	 * new Event subclass.
 	 * 
 	 * @author Josh Tynjala
 	 */
@@ -29,6 +29,7 @@ package com.simpleas3.events
 		}
 		
 		/**
+		 * @private
 		 * Stores the initObj in case we need it for cloning.
 		 */
 		private var _initObj:Object;

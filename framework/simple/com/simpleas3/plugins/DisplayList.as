@@ -63,6 +63,7 @@ package com.simpleas3.plugins
 		{
 			//put root and stage into the global scope
 			SimpleAS3.quickScope.root = this.root;
+			this.root.addEventListener(Event.REMOVED_FROM_STAGE, rootRemovedFromStageHandler, false, 0, true);
 			this.initializeStage();
 			
 			if(!SimpleAS3.invadePrototypes)
@@ -110,5 +111,14 @@ package com.simpleas3.plugins
 			this.initializeStage();
 		}
 		
+		/**
+		 * @private
+		 * Once the root has been removed from the stage, we'll need to listen
+		 * for the new stage.
+		 */
+		private function rootRemovedFromStageHandler(event:Event):void
+		{
+			this.initializeStage();
+		}
 	}
 }
