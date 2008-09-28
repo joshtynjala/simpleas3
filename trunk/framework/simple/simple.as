@@ -1,1 +1,6 @@
-SIMPLEAS3_VERSION = "0.2.0";
+package
+{	
+	public var simple:Object = {};
+}
+
+var SIMPLEAS3_VERSION:String = "0.2.0";

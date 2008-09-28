@@ -20,6 +20,10 @@ package com.simpleas3.utils
 	 */
 	public class DisplayListUtil
 	{
+		/**
+		 * @private
+		 * The URL to use when explaining runtime errors when debug mode is active.
+		 */
 		private static const RUNTIME_ERRORS_URL:String = "http://livedocs.adobe.com/flex/3/langref/runtimeErrors.html#";
 		
 		 /**

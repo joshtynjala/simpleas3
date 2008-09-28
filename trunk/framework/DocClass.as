@@ -1,6 +1,9 @@
 package
 {
-	import flash.display.MovieClip
+	import com.simpleas3.core.SimpleAS3;
+	import com.simpleas3.plugins.*;
+	
+	import flash.display.MovieClip;
 	
 	/**
 	 * Document class for a SimpleAS3 project.
@@ -10,13 +13,12 @@ package
 		public function ${CLASSNAME}()
 		{
 			super();
-			
-			//set up the root and stage global shortcuts
-			simpleas3.root = this.root;
-			simpleas3.stage = this.stage;
+			SimpleAS3.registerPlugin(new Events());
+			SimpleAS3.registerPlugin(new OnEventName());
+			SimpleAS3.registerPlugin(new PlayerGlobalEventNames());
+			SimpleAS3.registerPlugin(new DisplayList(this));
+			SimpleAS3.registerPlugin(new QuickLoaders());
+			SimpleAS3.initialize();
 		}
 	}
 }
-
-//don't remove this line. it initializes the SimpleAS3 framework.
-include "simple/simple.as";
